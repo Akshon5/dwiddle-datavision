@@ -1,0 +1,489 @@
+{
+  "num_classes": 20,
+  "classes": [
+    "airplane",
+    "apple",
+    "axe",
+    "bicycle",
+    "book",
+    "candle",
+    "chair",
+    "clock",
+    "cup",
+    "door",
+    "fish",
+    "flower",
+    "house",
+    "key",
+    "parachute",
+    "scissors",
+    "shoe",
+    "star",
+    "tree",
+    "umbrella"
+  ],
+  "label_mapping": {
+    "airplane": 0,
+    "apple": 1,
+    "axe": 2,
+    "bicycle": 3,
+    "book": 4,
+    "candle": 5,
+    "chair": 6,
+    "clock": 7,
+    "cup": 8,
+    "door": 9,
+    "fish": 10,
+    "flower": 11,
+    "house": 12,
+    "key": 13,
+    "parachute": 14,
+    "scissors": 15,
+    "shoe": 16,
+    "star": 17,
+    "tree": 18,
+    "umbrella": 19
+  },
+  "random_seed": 42,
+  "split_ratio": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "per_class_counts": {
+    "train": 1050,
+    "val": 225,
+    "test": 225,
+    "total": 1500
+  },
+  "total_counts": {
+    "train": 21000,
+    "val": 4500,
+    "test": 4500,
+    "total": 30000
+  },
+  "class_stats": {
+    "airplane": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 205.2,
+      "std_nonzero_px": 36.9,
+      "min_nonzero_px": 27,
+      "max_nonzero_px": 437
+    },
+    "apple": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 1,
+      "total_rejected": 1,
+      "usable_available": 1599,
+      "final_selected": 1500,
+      "mean_nonzero_px": 202.7,
+      "std_nonzero_px": 27.1,
+      "min_nonzero_px": 70,
+      "max_nonzero_px": 525
+    },
+    "axe": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 1,
+      "total_rejected": 1,
+      "usable_available": 1599,
+      "final_selected": 1500,
+      "mean_nonzero_px": 178.6,
+      "std_nonzero_px": 40.3,
+      "min_nonzero_px": 52,
+      "max_nonzero_px": 460
+    },
+    "bicycle": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 220.6,
+      "std_nonzero_px": 38.6,
+      "min_nonzero_px": 103,
+      "max_nonzero_px": 371
+    },
+    "book": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 8,
+      "total_rejected": 8,
+      "usable_available": 1592,
+      "final_selected": 1500,
+      "mean_nonzero_px": 285.5,
+      "std_nonzero_px": 57.3,
+      "min_nonzero_px": 29,
+      "max_nonzero_px": 474
+    },
+    "candle": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 1,
+      "total_rejected": 1,
+      "usable_available": 1599,
+      "final_selected": 1500,
+      "mean_nonzero_px": 152.2,
+      "std_nonzero_px": 32.3,
+      "min_nonzero_px": 78,
+      "max_nonzero_px": 572
+    },
+    "chair": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 176.9,
+      "std_nonzero_px": 54.6,
+      "min_nonzero_px": 56,
+      "max_nonzero_px": 395
+    },
+    "clock": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 1,
+      "total_rejected": 1,
+      "usable_available": 1599,
+      "final_selected": 1500,
+      "mean_nonzero_px": 246.0,
+      "std_nonzero_px": 28.3,
+      "min_nonzero_px": 123,
+      "max_nonzero_px": 451
+    },
+    "cup": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 233.1,
+      "std_nonzero_px": 40.7,
+      "min_nonzero_px": 64,
+      "max_nonzero_px": 445
+    },
+    "door": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 202.2,
+      "std_nonzero_px": 37.1,
+      "min_nonzero_px": 76,
+      "max_nonzero_px": 447
+    },
+    "fish": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 196.0,
+      "std_nonzero_px": 31.3,
+      "min_nonzero_px": 74,
+      "max_nonzero_px": 430
+    },
+    "flower": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 1,
+      "total_rejected": 1,
+      "usable_available": 1599,
+      "final_selected": 1500,
+      "mean_nonzero_px": 224.6,
+      "std_nonzero_px": 55.4,
+      "min_nonzero_px": 60,
+      "max_nonzero_px": 478
+    },
+    "house": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 232.2,
+      "std_nonzero_px": 41.1,
+      "min_nonzero_px": 58,
+      "max_nonzero_px": 418
+    },
+    "key": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 179.0,
+      "std_nonzero_px": 35.9,
+      "min_nonzero_px": 67,
+      "max_nonzero_px": 391
+    },
+    "parachute": {
+      "total_raw": 1600,
+      "provenance": "reused_original_stage2_pool",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 1,
+      "total_rejected": 1,
+      "usable_available": 1599,
+      "final_selected": 1500,
+      "mean_nonzero_px": 241.7,
+      "std_nonzero_px": 41.7,
+      "min_nonzero_px": 82,
+      "max_nonzero_px": 519
+    },
+    "scissors": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 226.7,
+      "std_nonzero_px": 45.5,
+      "min_nonzero_px": 77,
+      "max_nonzero_px": 440
+    },
+    "shoe": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 2,
+      "total_rejected": 2,
+      "usable_available": 1598,
+      "final_selected": 1500,
+      "mean_nonzero_px": 190.6,
+      "std_nonzero_px": 39.8,
+      "min_nonzero_px": 76,
+      "max_nonzero_px": 568
+    },
+    "star": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 225.1,
+      "std_nonzero_px": 33.1,
+      "min_nonzero_px": 76,
+      "max_nonzero_px": 431
+    },
+    "tree": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 228.7,
+      "std_nonzero_px": 43.4,
+      "min_nonzero_px": 61,
+      "max_nonzero_px": 429
+    },
+    "umbrella": {
+      "total_raw": 1600,
+      "provenance": "cached_expanded_raw",
+      "count_zero": 0,
+      "count_lt_10": 0,
+      "count_gt_450": 0,
+      "total_rejected": 0,
+      "usable_available": 1600,
+      "final_selected": 1500,
+      "mean_nonzero_px": 202.2,
+      "std_nonzero_px": 36.6,
+      "min_nonzero_px": 70,
+      "max_nonzero_px": 365
+    }
+  },
+  "split_info": {
+    "airplane": {
+      "class_index": 0,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "apple": {
+      "class_index": 1,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "axe": {
+      "class_index": 2,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "bicycle": {
+      "class_index": 3,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "book": {
+      "class_index": 4,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "candle": {
+      "class_index": 5,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "chair": {
+      "class_index": 6,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "clock": {
+      "class_index": 7,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "cup": {
+      "class_index": 8,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "door": {
+      "class_index": 9,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "fish": {
+      "class_index": 10,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "flower": {
+      "class_index": 11,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "house": {
+      "class_index": 12,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "key": {
+      "class_index": 13,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "parachute": {
+      "class_index": 14,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "scissors": {
+      "class_index": 15,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "shoe": {
+      "class_index": 16,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "star": {
+      "class_index": 17,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "tree": {
+      "class_index": 18,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    },
+    "umbrella": {
+      "class_index": 19,
+      "train_count": 1050,
+      "val_count": 225,
+      "test_count": 225,
+      "total_count": 1500
+    }
+  }
+}

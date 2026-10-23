@@ -1,0 +1,1212 @@
+{
+  "total_sketches": 48,
+  "overall_raw_accuracy": 81.25,
+  "accepted_correct": 39,
+  "accepted_wrong": 9,
+  "rejected": 0,
+  "threshold": 0.4,
+  "per_class_summary": {
+    "airplane": {
+      "total": 6,
+      "correct": 3,
+      "accuracy": 50.0,
+      "mean_confidence": 0.7629
+    },
+    "apple": {
+      "total": 6,
+      "correct": 6,
+      "accuracy": 100.0,
+      "mean_confidence": 0.9987
+    },
+    "axe": {
+      "total": 6,
+      "correct": 6,
+      "accuracy": 100.0,
+      "mean_confidence": 0.9508
+    },
+    "bicycle": {
+      "total": 6,
+      "correct": 3,
+      "accuracy": 50.0,
+      "mean_confidence": 0.7993
+    },
+    "candle": {
+      "total": 6,
+      "correct": 5,
+      "accuracy": 83.3,
+      "mean_confidence": 0.8967
+    },
+    "door": {
+      "total": 6,
+      "correct": 6,
+      "accuracy": 100.0,
+      "mean_confidence": 0.9856
+    },
+    "key": {
+      "total": 6,
+      "correct": 4,
+      "accuracy": 66.7,
+      "mean_confidence": 0.8669
+    },
+    "parachute": {
+      "total": 6,
+      "correct": 6,
+      "accuracy": 100.0,
+      "mean_confidence": 0.9756
+    }
+  },
+  "trials": [
+    {
+      "id": 1,
+      "true_class": "airplane",
+      "description": "Commercial jet with swept polygon wings",
+      "predicted_class": "axe",
+      "confidence": 0.544,
+      "top3": [
+        [
+          "axe",
+          0.5439658761024475
+        ],
+        [
+          "candle",
+          0.21103961765766144
+        ],
+        [
+          "key",
+          0.11350511014461517
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 2,
+      "true_class": "airplane",
+      "description": "Bold cross fuselage plane",
+      "predicted_class": "airplane",
+      "confidence": 0.9505,
+      "top3": [
+        [
+          "airplane",
+          0.950499951839447
+        ],
+        [
+          "candle",
+          0.04771779477596283
+        ],
+        [
+          "key",
+          0.001470034709200263
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 3,
+      "true_class": "airplane",
+      "description": "Diagonal banking delta jet",
+      "predicted_class": "axe",
+      "confidence": 0.9088,
+      "top3": [
+        [
+          "axe",
+          0.9088047742843628
+        ],
+        [
+          "key",
+          0.08128149062395096
+        ],
+        [
+          "apple",
+          0.004674611613154411
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 4,
+      "true_class": "airplane",
+      "description": "Horizontal glider with wide wingspan",
+      "predicted_class": "airplane",
+      "confidence": 0.6958,
+      "top3": [
+        [
+          "airplane",
+          0.6958121061325073
+        ],
+        [
+          "axe",
+          0.25095629692077637
+        ],
+        [
+          "candle",
+          0.040780313313007355
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 5,
+      "true_class": "airplane",
+      "description": "Biplane with struts",
+      "predicted_class": "airplane",
+      "confidence": 0.9228,
+      "top3": [
+        [
+          "airplane",
+          0.9227644205093384
+        ],
+        [
+          "key",
+          0.055814407765865326
+        ],
+        [
+          "candle",
+          0.009989948943257332
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 6,
+      "true_class": "airplane",
+      "description": "Thin line wings (stress case)",
+      "predicted_class": "candle",
+      "confidence": 0.5556,
+      "top3": [
+        [
+          "candle",
+          0.5555547475814819
+        ],
+        [
+          "axe",
+          0.3264397382736206
+        ],
+        [
+          "key",
+          0.09141966700553894
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 7,
+      "true_class": "apple",
+      "description": "Standard round apple with leaf",
+      "predicted_class": "apple",
+      "confidence": 0.9997,
+      "top3": [
+        [
+          "apple",
+          0.9996914863586426
+        ],
+        [
+          "key",
+          0.0001424122747266665
+        ],
+        [
+          "bicycle",
+          7.147497672121972e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 8,
+      "true_class": "apple",
+      "description": "Apple with prominent bite taken out",
+      "predicted_class": "apple",
+      "confidence": 0.9993,
+      "top3": [
+        [
+          "apple",
+          0.999312162399292
+        ],
+        [
+          "key",
+          0.0002562653389759362
+        ],
+        [
+          "bicycle",
+          0.00018005602760240436
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 9,
+      "true_class": "apple",
+      "description": "Heart-shaped double-lobed apple",
+      "predicted_class": "apple",
+      "confidence": 0.9943,
+      "top3": [
+        [
+          "apple",
+          0.9943112134933472
+        ],
+        [
+          "key",
+          0.004139402415603399
+        ],
+        [
+          "candle",
+          0.0008312381105497479
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 10,
+      "true_class": "apple",
+      "description": "Broad thick-outline apple",
+      "predicted_class": "apple",
+      "confidence": 0.9999,
+      "top3": [
+        [
+          "apple",
+          0.9999109506607056
+        ],
+        [
+          "key",
+          4.9916718126041815e-05
+        ],
+        [
+          "bicycle",
+          2.3087981389835477e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 11,
+      "true_class": "apple",
+      "description": "Small off-center apple",
+      "predicted_class": "apple",
+      "confidence": 0.9999,
+      "top3": [
+        [
+          "apple",
+          0.9999436140060425
+        ],
+        [
+          "bicycle",
+          2.334880264243111e-05
+        ],
+        [
+          "key",
+          2.1271252990118228e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 12,
+      "true_class": "apple",
+      "description": "Apple with symmetrical double leaf",
+      "predicted_class": "apple",
+      "confidence": 0.999,
+      "top3": [
+        [
+          "apple",
+          0.9990045428276062
+        ],
+        [
+          "key",
+          0.0004219917464070022
+        ],
+        [
+          "bicycle",
+          0.0003395367821212858
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 13,
+      "true_class": "axe",
+      "description": "Standard vertical woodcutter axe",
+      "predicted_class": "axe",
+      "confidence": 0.9931,
+      "top3": [
+        [
+          "axe",
+          0.9931051135063171
+        ],
+        [
+          "door",
+          0.004840224515646696
+        ],
+        [
+          "key",
+          0.0011285952059552073
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 14,
+      "true_class": "axe",
+      "description": "Double-headed medieval battle axe",
+      "predicted_class": "axe",
+      "confidence": 0.998,
+      "top3": [
+        [
+          "axe",
+          0.9979606866836548
+        ],
+        [
+          "key",
+          0.0017237302381545305
+        ],
+        [
+          "candle",
+          0.0001833177375374362
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 15,
+      "true_class": "axe",
+      "description": "Angled diagonal chopping axe",
+      "predicted_class": "axe",
+      "confidence": 0.7188,
+      "top3": [
+        [
+          "axe",
+          0.7188459038734436
+        ],
+        [
+          "key",
+          0.27783364057540894
+        ],
+        [
+          "apple",
+          0.0028783066663891077
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 16,
+      "true_class": "axe",
+      "description": "Broad-bladed camp hatchet",
+      "predicted_class": "axe",
+      "confidence": 0.9996,
+      "top3": [
+        [
+          "axe",
+          0.9995728135108948
+        ],
+        [
+          "door",
+          0.0002462791744619608
+        ],
+        [
+          "candle",
+          9.363798017147928e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 17,
+      "true_class": "axe",
+      "description": "Axe with ergonomic curved handle",
+      "predicted_class": "axe",
+      "confidence": 0.9999,
+      "top3": [
+        [
+          "axe",
+          0.9999006986618042
+        ],
+        [
+          "key",
+          4.620405888999812e-05
+        ],
+        [
+          "parachute",
+          3.572794594219886e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 18,
+      "true_class": "axe",
+      "description": "Left-facing wedge blade axe",
+      "predicted_class": "axe",
+      "confidence": 0.9956,
+      "top3": [
+        [
+          "axe",
+          0.9955797791481018
+        ],
+        [
+          "candle",
+          0.001859535463154316
+        ],
+        [
+          "door",
+          0.0012444010935723782
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 19,
+      "true_class": "bicycle",
+      "description": "Classic road bike with diamond frame",
+      "predicted_class": "bicycle",
+      "confidence": 0.8224,
+      "top3": [
+        [
+          "bicycle",
+          0.8223552107810974
+        ],
+        [
+          "key",
+          0.1348857879638672
+        ],
+        [
+          "apple",
+          0.03511004149913788
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 20,
+      "true_class": "bicycle",
+      "description": "Mountain bike with bold knobby tires",
+      "predicted_class": "bicycle",
+      "confidence": 0.8362,
+      "top3": [
+        [
+          "bicycle",
+          0.8362407088279724
+        ],
+        [
+          "key",
+          0.147354856133461
+        ],
+        [
+          "apple",
+          0.014751554466784
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 21,
+      "true_class": "bicycle",
+      "description": "Compact city commuter bike",
+      "predicted_class": "bicycle",
+      "confidence": 0.9698,
+      "top3": [
+        [
+          "bicycle",
+          0.9698154926300049
+        ],
+        [
+          "key",
+          0.015052171424031258
+        ],
+        [
+          "apple",
+          0.013607421889901161
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 22,
+      "true_class": "bicycle",
+      "description": "Bicycle with cross-spokes",
+      "predicted_class": "key",
+      "confidence": 0.7286,
+      "top3": [
+        [
+          "key",
+          0.7286152839660645
+        ],
+        [
+          "bicycle",
+          0.20775769650936127
+        ],
+        [
+          "apple",
+          0.043088458478450775
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 23,
+      "true_class": "bicycle",
+      "description": "Angled sports bike",
+      "predicted_class": "key",
+      "confidence": 0.5716,
+      "top3": [
+        [
+          "key",
+          0.5716367363929749
+        ],
+        [
+          "apple",
+          0.22485964000225067
+        ],
+        [
+          "bicycle",
+          0.16465134918689728
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 24,
+      "true_class": "bicycle",
+      "description": "Minimalist linear bike",
+      "predicted_class": "key",
+      "confidence": 0.8669,
+      "top3": [
+        [
+          "key",
+          0.8668913245201111
+        ],
+        [
+          "bicycle",
+          0.08759455382823944
+        ],
+        [
+          "candle",
+          0.025396443903446198
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 25,
+      "true_class": "candle",
+      "description": "Tall pillar with teardrop flame",
+      "predicted_class": "candle",
+      "confidence": 0.9976,
+      "top3": [
+        [
+          "candle",
+          0.997622549533844
+        ],
+        [
+          "axe",
+          0.001690089120529592
+        ],
+        [
+          "key",
+          0.0006120060570538044
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 26,
+      "true_class": "candle",
+      "description": "Candle in ceramic saucer with handle",
+      "predicted_class": "candle",
+      "confidence": 0.9994,
+      "top3": [
+        [
+          "candle",
+          0.9994298815727234
+        ],
+        [
+          "key",
+          0.0005261932965368032
+        ],
+        [
+          "door",
+          2.002910514420364e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 27,
+      "true_class": "candle",
+      "description": "Chunky candle with wax drips",
+      "predicted_class": "candle",
+      "confidence": 0.9999,
+      "top3": [
+        [
+          "candle",
+          0.9999151229858398
+        ],
+        [
+          "door",
+          3.891811138601042e-05
+        ],
+        [
+          "apple",
+          1.8722917957347818e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 28,
+      "true_class": "candle",
+      "description": "Tapered dining candle",
+      "predicted_class": "candle",
+      "confidence": 0.5663,
+      "top3": [
+        [
+          "candle",
+          0.566265881061554
+        ],
+        [
+          "axe",
+          0.35862046480178833
+        ],
+        [
+          "key",
+          0.06957993656396866
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 29,
+      "true_class": "candle",
+      "description": "Short squat votive candle",
+      "predicted_class": "candle",
+      "confidence": 0.9997,
+      "top3": [
+        [
+          "candle",
+          0.999697208404541
+        ],
+        [
+          "apple",
+          0.0002091343339998275
+        ],
+        [
+          "door",
+          7.030869892332703e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 30,
+      "true_class": "candle",
+      "description": "Minimalist single-stem taper candle",
+      "predicted_class": "axe",
+      "confidence": 0.8172,
+      "top3": [
+        [
+          "axe",
+          0.8172370195388794
+        ],
+        [
+          "candle",
+          0.1587807536125183
+        ],
+        [
+          "key",
+          0.021933209151029587
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 31,
+      "true_class": "door",
+      "description": "Classic rectangular door with knob",
+      "predicted_class": "door",
+      "confidence": 0.9999,
+      "top3": [
+        [
+          "door",
+          0.999904990196228
+        ],
+        [
+          "candle",
+          8.319129847222939e-05
+        ],
+        [
+          "axe",
+          7.270249170687748e-06
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 32,
+      "true_class": "door",
+      "description": "Detailed panelled entry door",
+      "predicted_class": "door",
+      "confidence": 0.9713,
+      "top3": [
+        [
+          "door",
+          0.9713229537010193
+        ],
+        [
+          "axe",
+          0.02083151787519455
+        ],
+        [
+          "candle",
+          0.0076737855561077595
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 33,
+      "true_class": "door",
+      "description": "Arched wooden fortress door",
+      "predicted_class": "door",
+      "confidence": 0.9941,
+      "top3": [
+        [
+          "door",
+          0.9940906167030334
+        ],
+        [
+          "candle",
+          0.005699274595826864
+        ],
+        [
+          "apple",
+          8.773295121500269e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 34,
+      "true_class": "door",
+      "description": "Open doorway with perspective frame",
+      "predicted_class": "door",
+      "confidence": 0.9531,
+      "top3": [
+        [
+          "door",
+          0.9531086087226868
+        ],
+        [
+          "candle",
+          0.03869065269827843
+        ],
+        [
+          "axe",
+          0.007165172137320042
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 35,
+      "true_class": "door",
+      "description": "Double blast doors with twin handles",
+      "predicted_class": "door",
+      "confidence": 0.9998,
+      "top3": [
+        [
+          "door",
+          0.9998037219047546
+        ],
+        [
+          "candle",
+          0.00014863681280985475
+        ],
+        [
+          "axe",
+          4.32149572588969e-05
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 36,
+      "true_class": "door",
+      "description": "Door with outer casing frame",
+      "predicted_class": "door",
+      "confidence": 0.9954,
+      "top3": [
+        [
+          "door",
+          0.9953729510307312
+        ],
+        [
+          "candle",
+          0.004146467428654432
+        ],
+        [
+          "axe",
+          0.0003117321466561407
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 37,
+      "true_class": "key",
+      "description": "Horizontal skeleton key with dual teeth",
+      "predicted_class": "key",
+      "confidence": 0.9974,
+      "top3": [
+        [
+          "key",
+          0.9974446296691895
+        ],
+        [
+          "axe",
+          0.0009910259395837784
+        ],
+        [
+          "apple",
+          0.0009047563653439283
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 38,
+      "true_class": "key",
+      "description": "Modern serrated house key",
+      "predicted_class": "key",
+      "confidence": 0.9747,
+      "top3": [
+        [
+          "key",
+          0.9746552109718323
+        ],
+        [
+          "axe",
+          0.018514826893806458
+        ],
+        [
+          "candle",
+          0.002502967370674014
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 39,
+      "true_class": "key",
+      "description": "Diagonal key with angled teeth",
+      "predicted_class": "axe",
+      "confidence": 0.4045,
+      "top3": [
+        [
+          "axe",
+          0.4045230746269226
+        ],
+        [
+          "key",
+          0.28877636790275574
+        ],
+        [
+          "apple",
+          0.2789139747619629
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 40,
+      "true_class": "key",
+      "description": "Oval head key with block tooth",
+      "predicted_class": "key",
+      "confidence": 0.9678,
+      "top3": [
+        [
+          "key",
+          0.9678487181663513
+        ],
+        [
+          "axe",
+          0.016842618584632874
+        ],
+        [
+          "apple",
+          0.011579236015677452
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 41,
+      "true_class": "key",
+      "description": "Vertical skeleton key (orientation test)",
+      "predicted_class": "candle",
+      "confidence": 0.8662,
+      "top3": [
+        [
+          "candle",
+          0.8661755323410034
+        ],
+        [
+          "key",
+          0.07366403937339783
+        ],
+        [
+          "axe",
+          0.05754103139042854
+        ]
+      ],
+      "is_correct": false,
+      "is_accepted": true,
+      "status": "MISCLASSIFIED"
+    },
+    {
+      "id": 42,
+      "true_class": "key",
+      "description": "Triple-notched dungeon key",
+      "predicted_class": "key",
+      "confidence": 0.9907,
+      "top3": [
+        [
+          "key",
+          0.9907367825508118
+        ],
+        [
+          "axe",
+          0.006502704229205847
+        ],
+        [
+          "apple",
+          0.0011978805996477604
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 43,
+      "true_class": "parachute",
+      "description": "Classic round dome with jumper dot",
+      "predicted_class": "parachute",
+      "confidence": 0.9968,
+      "top3": [
+        [
+          "parachute",
+          0.996757447719574
+        ],
+        [
+          "axe",
+          0.002392076188698411
+        ],
+        [
+          "key",
+          0.0005018147057853639
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 44,
+      "true_class": "parachute",
+      "description": "Scalloped canopy carrying cargo box",
+      "predicted_class": "parachute",
+      "confidence": 0.9935,
+      "top3": [
+        [
+          "parachute",
+          0.9934945702552795
+        ],
+        [
+          "key",
+          0.0034488639794290066
+        ],
+        [
+          "axe",
+          0.002613287651911378
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 45,
+      "true_class": "parachute",
+      "description": "Wind-drift tilted parachute",
+      "predicted_class": "parachute",
+      "confidence": 0.9842,
+      "top3": [
+        [
+          "parachute",
+          0.9841786026954651
+        ],
+        [
+          "axe",
+          0.010880708694458008
+        ],
+        [
+          "key",
+          0.00405594427138567
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 46,
+      "true_class": "parachute",
+      "description": "Wide rectangular paraglider wing",
+      "predicted_class": "parachute",
+      "confidence": 0.9758,
+      "top3": [
+        [
+          "parachute",
+          0.9757871627807617
+        ],
+        [
+          "axe",
+          0.016228197142481804
+        ],
+        [
+          "key",
+          0.003808950539678335
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 47,
+      "true_class": "parachute",
+      "description": "Heavy military cargo parachute",
+      "predicted_class": "parachute",
+      "confidence": 0.997,
+      "top3": [
+        [
+          "parachute",
+          0.9970026612281799
+        ],
+        [
+          "axe",
+          0.0014156027464196086
+        ],
+        [
+          "key",
+          0.0013477671891450882
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    },
+    {
+      "id": 48,
+      "true_class": "parachute",
+      "description": "Minimalist wireframe parachute",
+      "predicted_class": "parachute",
+      "confidence": 0.9062,
+      "top3": [
+        [
+          "parachute",
+          0.9062134027481079
+        ],
+        [
+          "key",
+          0.05356279015541077
+        ],
+        [
+          "apple",
+          0.0182094257324934
+        ]
+      ],
+      "is_correct": true,
+      "is_accepted": true,
+      "status": "CORRECT"
+    }
+  ]
+}

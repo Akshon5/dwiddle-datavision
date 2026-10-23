@@ -1,0 +1,63 @@
+{
+  "random_seed": 42,
+  "classes": [
+    "airplane",
+    "apple",
+    "axe",
+    "bicycle",
+    "candle",
+    "door",
+    "key",
+    "parachute"
+  ],
+  "label_mapping": {
+    "airplane": 0,
+    "apple": 1,
+    "axe": 2,
+    "bicycle": 3,
+    "candle": 4,
+    "door": 5,
+    "key": 6,
+    "parachute": 7
+  },
+  "shapes": {
+    "train": {
+      "images": [
+        8400,
+        28,
+        28
+      ],
+      "labels": [
+        8400
+      ]
+    },
+    "val": {
+      "images": [
+        1800,
+        28,
+        28
+      ],
+      "labels": [
+        1800
+      ]
+    },
+    "test": {
+      "images": [
+        1800,
+        28,
+        28
+      ],
+      "labels": [
+        1800
+      ]
+    }
+  },
+  "split_summary": {
+    "train_total": 8400,
+    "val_total": 1800,
+    "test_total": 1800,
+    "per_class_train": 1050,
+    "per_class_val": 225,
+    "per_class_test": 225
+  }
+}

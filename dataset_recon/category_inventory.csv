@@ -1,0 +1,17 @@
+category,status,recommendation,header_offset_bytes,total_dataset_examples,full_file_mb,sample_count,sample_file_kb,image_shape,dtype,pixel_min,pixel_max,pixel_mean,blank_drawings,near_blank_drawings,overly_dense_drawings,avg_stroke_pixels,rationale
+key,Verified & Sampled,Recommended,80,160965,120.35,1000,765.8,28x28,uint8,0,255,34.82,0,0,0,179.7,Round head with long stem and notched teeth; essential unlock mechanic; high visual contrast.
+hammer,Verified & Sampled,Avoid / Confusion Risk,80,119012,88.98,1000,765.8,28x28,uint8,0,255,40.19,0,0,0,206.5,High visual confusion with axe and screwdriver (handle + head); players draw basic stick-T shape.
+axe,Verified & Sampled,Recommended,80,124122,92.8,1000,765.8,28x28,uint8,0,255,34.64,0,0,1,178.2,Wedge blade with handle; obstacle-clearing/tool mechanic; pick one edged tool (avoiding hammer/screwdriver confusion).
+ladder,Verified & Sampled,Avoid / High Confusion,80,125389,93.75,1000,765.8,28x28,uint8,0,255,36.52,0,0,0,187.6,"Parallel vertical lines with rungs; frequently confused with door, bridge, and railway tracks."
+bridge,Verified & Sampled,Avoid / High Variance,80,133010,99.45,1000,765.8,28x28,uint8,0,255,35.62,0,0,0,176.8,"Enormous visual diversity (arch, suspension, beam); often confused with ladder or bench."
+flashlight,Verified & Sampled,Avoid / Alternative to Candle,80,239763,179.27,1000,765.8,28x28,uint8,0,255,35.25,0,0,0,183.1,"Confusable with candle, hammer, and microphone; cylindrical body with flared end."
+door,Verified & Sampled,Recommended,80,120230,89.89,1000,765.8,28x28,uint8,0,255,38.29,0,0,0,202.5,Rectangular frame with doorknob; classic barrier/escape mechanic; clean geometric edges.
+airplane,Verified & Sampled,Recommended,80,151623,113.37,1000,765.8,28x28,uint8,0,255,40.53,0,0,0,204.7,Distinct cruciform/swept-wing profile; flight/travel escape mechanic; easily recognized.
+parachute,Verified & Sampled,Recommended,80,127319,95.19,1000,765.8,28x28,uint8,0,255,46.99,0,0,1,243.1,Hemispheric canopy with converging suspension cords; aerial descent challenge; unmistakable silhouette.
+screwdriver,Verified & Sampled,Avoid / Confusion Risk,80,116313,86.97,1000,765.8,28x28,uint8,0,255,28.25,0,0,1,140.1,"Confusable with key, candle, hammer, and wand; long thin shaft with small handle."
+candle,Verified & Sampled,Recommended,80,141545,105.83,1000,765.8,28x28,uint8,0,255,29.84,0,0,1,152.1,Vertical cylinder with teardrop flame; light/dungeon dark-room mechanic; distinct from tools.
+lantern,Verified & Sampled,Avoid / Redundant,80,149912,112.09,1000,765.8,28x28,uint8,0,255,49.92,0,0,2,251.3,"Complex caged shape; frequently drawn as candle, lamp, or bottle; excessive stroke variance."
+shoe,Verified & Sampled,Backup / Alternative,80,120231,89.89,1000,765.8,28x28,uint8,0,255,36.38,0,0,0,190.3,"L-shaped side profile, but high variance across sneakers, boots, and high heels."
+apple,Verified & Sampled,Recommended,80,144722,108.21,1000,765.8,28x28,uint8,0,255,37.56,0,0,0,202.9,Circular body with distinct stem/leaf; food/health game mechanic; visually unique.
+cup,Verified & Sampled,Backup / Good Alternative,80,130721,97.74,1000,765.8,28x28,uint8,0,255,45.06,0,0,0,233.6,"Mug with handle; clean shape, but sometimes resembles cylinder/pot or bucket."
+bicycle,Verified & Sampled,Recommended,80,126527,94.6,1000,765.8,28x28,uint8,0,255,43.93,0,0,0,220.8,Two separated wheels with frame and handlebars; iconic topology; land vehicle mechanic.

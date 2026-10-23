@@ -1,0 +1,22 @@
+{
+  "airplane": 0,
+  "apple": 1,
+  "axe": 2,
+  "bicycle": 3,
+  "book": 4,
+  "candle": 5,
+  "chair": 6,
+  "clock": 7,
+  "cup": 8,
+  "door": 9,
+  "fish": 10,
+  "flower": 11,
+  "house": 12,
+  "key": 13,
+  "parachute": 14,
+  "scissors": 15,
+  "shoe": 16,
+  "star": 17,
+  "tree": 18,
+  "umbrella": 19
+}

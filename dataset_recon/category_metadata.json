@@ -1,0 +1,162 @@
+[
+  {
+    "category": "key",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/key.npy",
+    "file_size_bytes": 126196640,
+    "file_size_mb": 120.35,
+    "num_examples": 160965,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "hammer",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/hammer.npy",
+    "file_size_bytes": 93305488,
+    "file_size_mb": 88.98,
+    "num_examples": 119012,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "axe",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/axe.npy",
+    "file_size_bytes": 97311728,
+    "file_size_mb": 92.8,
+    "num_examples": 124122,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "ladder",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/ladder.npy",
+    "file_size_bytes": 98305056,
+    "file_size_mb": 93.75,
+    "num_examples": 125389,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "bridge",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/bridge.npy",
+    "file_size_bytes": 104279920,
+    "file_size_mb": 99.45,
+    "num_examples": 133010,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "flashlight",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/flashlight.npy",
+    "file_size_bytes": 187974272,
+    "file_size_mb": 179.27,
+    "num_examples": 239763,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "door",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/door.npy",
+    "file_size_bytes": 94260400,
+    "file_size_mb": 89.89,
+    "num_examples": 120230,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "airplane",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/airplane.npy",
+    "file_size_bytes": 118872512,
+    "file_size_mb": 113.37,
+    "num_examples": 151623,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "parachute",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/parachute.npy",
+    "file_size_bytes": 99818176,
+    "file_size_mb": 95.19,
+    "num_examples": 127319,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "screwdriver",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/screwdriver.npy",
+    "file_size_bytes": 91189472,
+    "file_size_mb": 86.97,
+    "num_examples": 116313,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "candle",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/candle.npy",
+    "file_size_bytes": 110971360,
+    "file_size_mb": 105.83,
+    "num_examples": 141545,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "lantern",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/lantern.npy",
+    "file_size_bytes": 117531088,
+    "file_size_mb": 112.09,
+    "num_examples": 149912,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "shoe",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/shoe.npy",
+    "file_size_bytes": 94261184,
+    "file_size_mb": 89.89,
+    "num_examples": 120231,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "apple",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/apple.npy",
+    "file_size_bytes": 113462128,
+    "file_size_mb": 108.21,
+    "num_examples": 144722,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "cup",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/cup.npy",
+    "file_size_bytes": 102485344,
+    "file_size_mb": 97.74,
+    "num_examples": 130721,
+    "dim": 784,
+    "dtype": "|u1"
+  },
+  {
+    "category": "bicycle",
+    "status": "Available",
+    "url": "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/bicycle.npy",
+    "file_size_bytes": 99197248,
+    "file_size_mb": 94.6,
+    "num_examples": 126527,
+    "dim": 784,
+    "dtype": "|u1"
+  }
+]

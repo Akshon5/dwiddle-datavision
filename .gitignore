@@ -1,0 +1,41 @@
+# Environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Streamlit local credentials (preserve config.toml)
+.streamlit/credentials.toml
+
+# Large intermediate raw datasets (clean .npz datasets are tracked)
+*.npy
+data/expanded_20/raw/
+dataset_recon/samples/
+
+# Scratch & Temporary outputs
+scratch/
+tmp/
+*.log
